@@ -6,6 +6,7 @@ class Post(models.Model):
     author = models.CharField(max_length=50)
     created_at = models.DateTimeField(auto_now=True)
     body = models.TextField()
+    preview = models.CharField(max_length=150, null=True)
 
     class Meta:
         ordering = ['-created_at']
