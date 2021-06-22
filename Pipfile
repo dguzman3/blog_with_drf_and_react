@@ -8,6 +8,8 @@ django = "*"
 django-rest-framework = "*"
 python-dotenv = "*"
 django-cors-headers = "*"
+django-rest-auth = "*"
+django-allauth = "*"
 
 [dev-packages]
 autopep8 = "*"
